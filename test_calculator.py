@@ -20,6 +20,7 @@ class TestCalculator:
         calc = Calculator(-2, 17)
         assert calc.multiply() == -34
 
+#tutaj tylko chcialem zobaczyc jak dziala petla razem z assert
     def test_divide(self):
         for divisor in range(5):
             calc = Calculator(5, divisor+1)
