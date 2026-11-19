@@ -18,3 +18,7 @@ class Calculator:
 # examples: 
 # calc = Calculator(8, 2)
 # print(calc.divide())
+# funkcja divide zwróci wyjatek jesli drugim parametrem bedzie 0
+# nalezy jej uzywac z try: except ZeroDivisionError:
+# Teoretycznie moznaby to umiescic w konstruktorze. 
+# Ale jesli metoda divide nie jest uzywana to 0 jest poprawnym argumentem
